@@ -1,0 +1,149 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(244, 250, 253);
+}
+header{
+    display : flex;
+    height : 70px;
+    width: 100%;
+    background-color: rgba(245, 242, 240, 0.948);
+    position : sticky;
+    align-items: center;
+    top : 0;
+}
+header button{
+    border: none;
+    font-size : 15px;
+    color:rgb(48, 45, 45);
+    cursor: pointer;
+}
+#img_container{
+    height: 60px;
+    width: 50px;
+    margin-left: 50px;
+}
+#img_container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+#name_on_header{
+    font-size: 20px;
+    margin-left: 5px;
+    color:rgb(48, 45, 45);
+}
+footer{
+    display : flex;
+    height : 90px;
+    width: 100%;
+    background-color: rgba(245, 242, 240, 0.948);
+    margin-top: auto;
+}
+#menu_container{
+    display: flex;
+    margin-left: 700px;
+    gap: 65px;
+}
+
+
+
+#welcome{
+    display: flex;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 60px;
+    gap: 60px;
+    
+    border-radius: 10px;
+}
+#welcome-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 80px;
+    width: 60%;
+    height: 100%
+}
+#welcome-text h1{
+    font-size: 55px;
+}
+#welcome-text p{
+    font-size: 25px;
+    color: rgb(72, 73, 74);
+}
+#welcome-image{
+    height: 100%;
+}
+#avt-container{
+    height: 100%;
+    width: 100%;
+    padding: 20px 40px;
+}
+#avt-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: solid rgb(225, 222, 222);
+}
+
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+}
+
+#detail-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+#Major{
+    border-right: 2px solid black;
+    padding-right: 150px;
+    padding-bottom: 10px;
+}
+#Major p{
+    font-size: 20px;
+    color: rgb(72, 73, 74);
+}
+#University p{
+    font-size: 20px;
+    color: rgb(72, 73, 74);
+}
+#Locate p{
+    font-size: 20px;
+    color: rgb(72, 73, 74);
+}
+#University{
+    border-right: 2px solid black;
+    padding-right: 150px;
+    padding-bottom: 10px;
+}
+
+
+/* Logic switch page */
+.home-page,
+.projects-page,
+.resume-page,
+.contact-page{
+    display: none;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;    
+}
+  
