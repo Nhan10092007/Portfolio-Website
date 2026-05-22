@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header-->
@@ -22,7 +23,7 @@
     </header>
 
     <!-- Home page-->
-    <div class = "home-page active">
+    <div class = "home-page">
         <!-- Welcome section: -->
         <div id = "welcome">
             <div id = "welcome-text">
@@ -59,12 +60,64 @@
         </div>
     </div>
     <!-- Projects page: -->
-    <div class = "projects-page">
-        <h1>Projects</h1>
+    <div class = "projects-page active">
+        <div id = "projects-page-title">
+            <h1>PROJECTS</h1>
+            <p>Projects that helped me improve my frontend and problem-solving skills.</p>
+        </div>
+        <div class = "project-container" id = "container1">
+            <div id = "portfolio">
+                <div id = "project-img-container1">
+                    <img src="Image/Portfolio.png" alt="">
+                </div>
+                <div id = "project-des-container1">
+                    <h2>Portfolio Website (Demo Edition)</h2>
+                    <br>
+                    <p>This project is a portfolio website builded base on basic HTML, CSS and Vanilla JS to enhance my frontend skill and help me to understand how DOM in JS execute. (The better edition will be update soon)</p>
+                    <br>
+                </div>
+                <button><a href="https://github.com/Nhan10092007/Portfolio-Website.git" target="_blank">Github repository link</a></button>
+            </div>
+
+            <div id = "nodsense-ggmeet">
+                <div id = "project-img-container2">
+                    <img src="Image/ggmeet.png" alt="">
+                </div>
+                <div id = "project-des-container2">
+                    <h2>Nodsense (Google Meet Edition)</h2>
+                    <br>
+                    <p>This project is a chrome extension builded base on HTML, CSS, Vanilla JS and JSON. It is intergrated AI by using GEMINI API to analysis the nuance and meaning of people's speech via live caption while meeting online on Google Meet.</p>
+                    <br>
+                </div>
+                <button><a href="https://github.com/baonguyengrrg/Project_Borneo.git" target="_blank">Github repository link</a></button>
+            </div>
+        </div>
+
+        <div class = "project-container" id = "container2">
+            <div id = "nodsense-ggdocs">
+                <div id = "project-img-container3">
+                    <img src="Image/ggdocs.png" alt="">
+                </div>
+                <div id = "project-des-container3">
+                    <h2>Nodsense (Google Docs Edition)</h2>
+                    <br>
+                    <p>This project is a Google Docs chrome extension that builded base on HTML, CSS, Vanilla JS and JSON. It is intergrated AI by using model Qwen 2.5, C++ Architecture and fastAPIS instead of GEMINI API to analysis the meaning of the comments in Google Docs.</p>
+                    <br>
+                </div>
+                <button><a href="https://github.com/baonguyengrrg/NodSense.git" target="_blank">Github repository link</a></button>
+            </div>
+            <div id = "green-path">
+
+            </div>
+        </div>
+
+        <div class = "project-container" id = "container3">
+
+        </div>
     </div>
     <!-- Resume page: -->
     <div class = "resume-page">
-        <h1>Resume</h1>
+        <h1>Update Soon</h1>
     </div>
     <!-- Contact page: -->
     <div class = "contact-page">

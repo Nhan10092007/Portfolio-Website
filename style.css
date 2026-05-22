@@ -147,3 +147,194 @@ footer{
     flex-direction: column;    
 }
   
+
+/*Projects page*/
+#projects-page-title{
+    width : 100%;
+    height : 8rem;
+    background-color: rgb(16, 127, 115);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+}
+#projects-page-title h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  200;
+    font-size: 60px;
+    letter-spacing: 2px;   
+    margin-left: 15px;
+}
+#projects-page-title p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  300;
+    font-size: 20px;
+    letter-spacing: 2px;   
+    margin-left: 15px;
+}
+.project-container{
+    width : 100%;
+    height : 550px;
+}
+
+#container1{
+    display: flex;
+    margin-top : 60px;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+#portfolio{
+    width: 50%;
+    height: 550px;
+    margin-left: 60px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+}
+#project-img-container1{
+    box-shadow: 0 0px 20px rgba(89, 88, 88, 0.25);
+    margin-top: 12px;
+    height : 55%;
+    width: 82%;   
+}
+#project-img-container1 img{
+    height : 100%;
+    width: 100%;
+}
+#project-des-container1{
+    width: 80%;
+    margin-top: 20px;
+}
+#project-des-container1 h2{
+    font-size: 30px;
+}
+#project-des-container1 p{
+    font-size: 18px;
+    color: rgb(72, 73, 74);
+}
+#portfolio button{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(16, 127, 115);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+#portfolio a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+
+#nodsense-ggmeet{
+    height: 550px;
+    width: 50%;
+    margin-right: 60px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+#project-img-container2{
+    box-shadow: 0 0px 20px rgba(89, 88, 88, 0.25);
+    margin-top: 12px;
+    height : 55%;
+    width: 82%;   
+}
+#project-img-container2 img{
+    height : 100%;
+    width: 100%;
+}
+#project-des-container2{
+    width: 80%;
+    margin-top: 20px;
+}
+#project-des-container2 h2{
+    font-size: 30px;
+}
+#project-des-container2 p{
+    font-size: 18px;
+    color: rgb(72, 73, 74);
+}
+#nodsense-ggmeet button{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(16, 127, 115);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+#nodsense-ggmeet a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+
+#container2{
+    display: flex;
+    margin-top : 60px;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+#nodsense-ggdocs{
+    height: 550px;
+    width: 50%;
+    margin-left: 60px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+#project-img-container3{
+    box-shadow: 0 0px 20px rgba(89, 88, 88, 0.25);
+    margin-top: 12px;
+    height : 55%;
+    width: 82%;   
+}
+#project-img-container3 img{
+    height : 100%;
+    width: 100%;
+}
+#project-des-container3{
+    width: 80%;
+    margin-top: 20px;
+}
+#project-des-container3 h2{
+    font-size: 30px;
+}
+#project-des-container3 p{
+    font-size: 18px;
+    color: rgb(72, 73, 74);
+}
+#nodsense-ggdocs button{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(16, 127, 115);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+#nodsense-ggdocs a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
