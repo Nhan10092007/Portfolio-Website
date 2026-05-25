@@ -3,6 +3,63 @@
     padding : 0;
     box-sizing: border-box;
 }
+@keyframes Fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.dark-mode{
+    background-color: rgb(12, 26, 39);
+    animation: Fade 1s;
+}
+.dark-mode #project-img-container1 img{
+    box-shadow: 0 4px 10px rgb(135, 130, 130);
+}
+.dark-mode #project-img-container2 img{
+    box-shadow: 0 4px 10px rgb(135, 130, 130);
+}
+.dark-mode #project-img-container3 img{
+    box-shadow: 0 4px 10px rgb(135, 130, 130);
+}
+.dark-mode #avt-container img{
+    box-shadow: 0 4px 15px whitesmoke;
+}
+.dark-mode h1, .dark-mode h2, .dark-mode h3{
+    color: aliceblue;
+}
+.dark-mode p{
+    color: rgb(246, 247, 248);
+}
+.dark-mode #welcome-text p,
+.dark-mode #Major p,
+.dark-mode #University p,
+.dark-mode #Locate p,
+.dark-mode #project-des-container1 p,
+.dark-mode #project-des-container2 p,
+.dark-mode #project-des-container3 p {
+    color: rgb(246, 247, 248);
+}
+.dark-mode header,
+.dark-mode footer {
+    background-color: rgba(17, 34, 51, 0.95);
+}
+.dark-mode header button,
+.dark-mode #name_on_header {
+    color: rgb(220, 225, 230);
+}
+.dark-mode #portfolio,
+.dark-mode #nodsense-ggmeet,
+.dark-mode #nodsense-ggdocs {
+    background-color: rgb(17, 34, 51);
+    box-shadow: 0 4px 10px rgb(80, 76, 76);
+}
+.dark-mode #Major,
+.dark-mode #University {
+    border-right: 2px solid rgb(246, 247, 248);
+}
 body{
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -32,11 +89,25 @@ header{
     align-items: center;
     top : 0;
 }
+.change-theme{
+    height: 27px;
+    width: 27px;
+    margin-left : 100px;
+    transition: all 0.3s;
+}
+.change-theme img{
+    height: 100%;
+    width: 100%;
+}
+.change-theme:hover{
+    transform: scale(1.2);
+}
 header button{
     border: none;
     font-size : 15px;
     color:rgb(48, 45, 45);
     cursor: pointer;
+    background-color: transparent;
 }
 #img_container{
     height: 60px;
