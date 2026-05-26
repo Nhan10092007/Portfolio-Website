@@ -13,6 +13,7 @@ projectsbtn.addEventListener("click", () => switchSolve(projectsbtn))
 resumebtn.addEventListener("click", () => switchSolve(resumebtn))
 contactbtn.addEventListener("click", () => switchSolve(contactbtn))
 
+//Switch page logic
 function switchSolve(curBtn){
     if(homepage.classList.contains("active")){
         homepage.classList.remove("active")
@@ -41,6 +42,7 @@ function switchSolve(curBtn){
     }
 }
 
+//Change theme feature
 const themeicon = document.getElementById("theme-icon")
 const theme = document.querySelector(".theme")
 const changethemebtn = document.querySelector(".change-theme")
@@ -60,3 +62,4 @@ function changeTheme(){
         themeicon.src = "Image/moon.png"
     }
 }
+
